@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using QuestionsApp.Web.DB;
+
 namespace QuestionsApp.Tests;
 using FluentAssertions;
 using QuestionsApp.Web.Handlers.Commands;
@@ -9,9 +12,9 @@ public class QuestionsTests
 {
     
     
-    private GetQuestionsQuery NewGetQuestionsQueryHandler => new();
-    private AskQuestionCommand NewAskQuestionCommandHandler => new();
-    private VoteForQuestionCommand NewVoteForQuestionCommandHandler => new();
+    private GetQuestionsQuery NewGetQuestionsQueryHandler => new(_context);
+    private AskQuestionCommand NewAskQuestionCommandHandler => new(_context);
+    private VoteForQuestionCommand NewVoteForQuestionCommandHandler => new(_context);
 
 
 [Fact]
@@ -47,6 +50,14 @@ public async void OneQuestionAndVote()
     response = await NewGetQuestionsQueryHandler.Handle(new GetQuestionsRequest(), default);
     response.Should().HaveCount(1);
     response[0].Votes.Should().Be(1);
+}
+private readonly QuestionsContext _context;
+
+public QuestionsTests()
+{
+    var options = new DbContextOptionsBuilder<QuestionsContext>().
+        UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
+    _context = new QuestionsContext(options);
 }
 
 
