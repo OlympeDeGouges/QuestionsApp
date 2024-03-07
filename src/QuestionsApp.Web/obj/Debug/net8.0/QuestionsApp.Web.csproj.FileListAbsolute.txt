@@ -32,3 +32,5 @@
 /Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/obj/Debug/net8.0/QuestionsApp.Web.pdb
 /Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/obj/Debug/net8.0/QuestionsApp.Web.genruntimeconfig.cache
 /Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/obj/Debug/net8.0/ref/QuestionsApp.Web.dll
+/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/bin/Debug/net8.0/MediatR.dll
+/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/bin/Debug/net8.0/MediatR.Contracts.dll
