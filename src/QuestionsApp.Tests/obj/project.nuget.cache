@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "reeHOp3vxRKJ1sATg3fMPi0un9M46/RRIJIswguj81Gmyos7YPZ9f2dD5d40GLRII+un9w8vp6gRQ6KlNk9m6A==",
+  "dgSpecHash": "8FAt7jup/Vj9biR98IGyk/QmwpdqWJx9a/cmVeSlKbKU+s5uYPLgT2ScA3gd39lTrkZtK2I+yg2W0pa+wtNkow==",
   "success": true,
-  "projectFilePath": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/src/QuestionsApp.Tests/QuestionsApp.Tests.csproj",
+  "projectFilePath": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Tests/QuestionsApp.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/brankovic_tanja/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/brankovic_tanja/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/brankovic_tanja/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/microsoft.aspnetcore.openapi/8.0.1/microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/brankovic_tanja/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",

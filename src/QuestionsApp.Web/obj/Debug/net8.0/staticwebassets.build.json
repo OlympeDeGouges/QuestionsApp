@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Z9AyzSHA8sH4cvdTqfLBsmvUPPlhRPzqOIWDuvUBA/0=",
+  "Source": "QuestionsApp.Web",
+  "BasePath": "_content/QuestionsApp.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

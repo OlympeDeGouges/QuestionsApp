@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {}
+    "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {}
   },
   "projects": {
-    "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {
+    "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
+        "projectUniqueName": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
         "projectName": "QuestionsApp.Web",
-        "projectPath": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
+        "projectPath": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
         "packagesPath": "/Users/brankovic_tanja/.nuget/packages/",
-        "outputPath": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/src/QuestionsApp.Web/obj/",
+        "outputPath": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brankovic_tanja/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.1, )"
