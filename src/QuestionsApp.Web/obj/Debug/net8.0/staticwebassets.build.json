@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "Z9AyzSHA8sH4cvdTqfLBsmvUPPlhRPzqOIWDuvUBA/0=",
+  "Hash": "+gX4CPTkH7Sr9rChoY5Y9erzEkti2fuUFaEFCsc5COk=",
   "Source": "QuestionsApp.Web",
   "BasePath": "_content/QuestionsApp.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "QuestionsApp.Web/wwwroot",
+      "Source": "QuestionsApp.Web",
+      "ContentRoot": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/wwwroot/",
+      "BasePath": "_content/QuestionsApp.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/wwwroot/index.html",
+      "SourceId": "QuestionsApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/wwwroot/",
+      "BasePath": "_content/QuestionsApp.Web",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
 }

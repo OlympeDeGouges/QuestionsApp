@@ -1,10 +1,6 @@
+﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using QuestionsApp.Web.DB;
-using MediatR;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace QuestionsApp.Web.Handlers.Queries;
 
@@ -16,7 +12,8 @@ public class GetQuestionsResponse
 }
 
 public class GetQuestionsRequest : IRequest<List<GetQuestionsResponse>>
-{ }
+{
+}
 
 public class GetQuestionsQuery : IRequestHandler<GetQuestionsRequest, List<GetQuestionsResponse>>
 {
@@ -26,14 +23,12 @@ public class GetQuestionsQuery : IRequestHandler<GetQuestionsRequest, List<GetQu
     {
         _context = context;
     }
-    
-    public async Task<List<GetQuestionsResponse>> Handle(GetQuestionsRequest request, CancellationToken cancellationToken)
+
+    public async Task<List<GetQuestionsResponse>> Handle(GetQuestionsRequest request,
+        CancellationToken cancellationToken)
     {
-        return await _context.Questions.Select(q => new GetQuestionsResponse 
-        { 
-            Id = q.Id, 
-            Content = q.Content, 
-            Votes = q.Votes.Count 
-        }).ToListAsync(cancellationToken);
+        return await (from q in _context.Questions
+                select new GetQuestionsResponse { Id = q.Id, Content = q.Content, Votes = q.Votes.Count() })
+            .ToListAsync(cancellationToken);
     }
 }

@@ -1108,6 +1108,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "FluentAssertions": "7.0.0-alpha.3",
           "MediatR": "12.2.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0-preview.1.24081.2",
@@ -2803,7 +2804,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "FluentAssertions >= 7.0.0-alpha.3",
       "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0-preview.1.24081.2",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "QuestionsApp.Web >= 1.0.0",
@@ -2853,10 +2853,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "FluentAssertions": {
-            "target": "Package",
-            "version": "[7.0.0-alpha.3, )"
-          },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[9.0.0-preview.1.24081.2, )"

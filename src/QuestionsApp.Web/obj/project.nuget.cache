@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LJunlMcpjEi3ehsOHW3yDkkC23JLZ41JicMj5Vd0Rj1GxDSeQHhtKsUJqUbtputK4WgmPuBseDmTvAaJL/mNKQ==",
+  "dgSpecHash": "4mZevtSnXRVot9fpFdEc7V8CYnaub1oLVxwNBipIRu5JFm3PoOKAjo8tCJJupROgUBDUxnz/EYdVa9Asmz9inA==",
   "success": true,
   "projectFilePath": "/Users/brankovic_tanja/Documents/FH_Kufstein/MeinStudium/Sommersemester_24/Serverseiteige/LabStarter/QuestionsApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/brankovic_tanja/.nuget/packages/fluentassertions/7.0.0-alpha.3/fluentassertions.7.0.0-alpha.3.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/microsoft.aspnetcore.openapi/8.0.1/microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
@@ -34,7 +35,9 @@
     "/Users/brankovic_tanja/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/brankovic_tanja/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/brankovic_tanja/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/system.text.encodings.web/9.0.0-preview.1.24080.9/system.text.encodings.web.9.0.0-preview.1.24080.9.nupkg.sha512",
     "/Users/brankovic_tanja/.nuget/packages/system.text.json/9.0.0-preview.1.24080.9/system.text.json.9.0.0-preview.1.24080.9.nupkg.sha512"
   ],
